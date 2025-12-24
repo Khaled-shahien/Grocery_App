@@ -1,0 +1,42 @@
+[33m844eff3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: pull --rebase origin main (finish): returning to refs/heads/main
+[33m844eff3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{1}: pull --rebase origin main (pick): final app
+[33m1795333[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{2}: pull --rebase origin main (start): checkout 1795333b197e8e9b5e7c83cf0510292c8dd66d67
+[33mc32afc8[m HEAD@{3}: commit: final app
+[33m97303dc[m HEAD@{4}: reset: moving to 97303dc
+[33m0c92d2c[m HEAD@{5}: merge origin/main: Fast-forward
+[33m97303dc[m HEAD@{6}: reset: moving to HEAD
+[33m97303dc[m HEAD@{7}: commit: ui chnages
+[33me68f063[m HEAD@{8}: commit: feat(home): Integrate API for TrendingDeals and Recommended sections
+[33m38a56ab[m HEAD@{9}: merge Ahmed-home-screen: Merge made by the 'ort' strategy.
+[33m1e58c71[m HEAD@{10}: pull origin main: Fast-forward
+[33md080ad8[m HEAD@{11}: checkout: moving from Ahmed-home-screen to main
+[33m6ce9330[m[33m ([m[1;32mAhmed-home-screen[m[33m)[m HEAD@{12}: commit: last update
+[33md080ad8[m HEAD@{13}: checkout: moving from ahmedasaber to Ahmed-home-screen
+[33md84935c[m[33m ([m[1;31morigin/ahmedasaber[m[33m, [m[1;32mahmedasaber[m[33m)[m HEAD@{14}: reset: moving to HEAD
+[33md84935c[m[33m ([m[1;31morigin/ahmedasaber[m[33m, [m[1;32mahmedasaber[m[33m)[m HEAD@{15}: checkout: moving from main to ahmedasaber
+[33md080ad8[m HEAD@{16}: pull origin main: Fast-forward
+[33me89708b[m HEAD@{17}: reset: moving to HEAD
+[33me89708b[m HEAD@{18}: checkout: moving from ahmedasaber to main
+[33md84935c[m[33m ([m[1;31morigin/ahmedasaber[m[33m, [m[1;32mahmedasaber[m[33m)[m HEAD@{19}: reset: moving to HEAD
+[33md84935c[m[33m ([m[1;31morigin/ahmedasaber[m[33m, [m[1;32mahmedasaber[m[33m)[m HEAD@{20}: commit: ui
+[33mf3debea[m HEAD@{21}: commit: Fix snackbar duplication and Navigator context issues - Removed duplicate snackbar calls in product card, fixed Overlay access in custom snackbar, resolved cart item deletion context problems, ensured single top snackbar notification for better UX
+[33m4a962d2[m HEAD@{22}: pull: Fast-forward
+[33md316d9c[m HEAD@{23}: commit: Colors
+[33m86750ae[m HEAD@{24}: commit: Effects_ui
+[33mbbbbc47[m HEAD@{25}: merge main: Merge made by the 'ort' strategy.
+[33m992e8ed[m HEAD@{26}: checkout: moving from main to ahmedasaber
+[33me89708b[m HEAD@{27}: pull origin main: Fast-forward
+[33m0fa03f9[m HEAD@{28}: checkout: moving from ahmedasaber to main
+[33m992e8ed[m HEAD@{29}: reset: moving to HEAD
+[33m992e8ed[m HEAD@{30}: commit (merge): Merge branch 'main' of https://github.com/ahmedabdelkrim125/grocery_app into ahmedasaber
+[33m7e6ce6e[m HEAD@{31}: commit: feat(layout): Implement bottom navigation bar
+[33mb206a31[m HEAD@{32}: commit: add photo svg ,featue products done
+[33mfa0890b[m HEAD@{33}: checkout: moving from main to ahmedasaber
+[33m0fa03f9[m HEAD@{34}: pull origin main: Fast-forward
+[33m0e88e2d[m HEAD@{35}: commit: feat(onboarding): Add onboarding screen with animated page indicator
+[33m6253107[m HEAD@{36}: commit: add files on all folders
+[33m699e14d[m HEAD@{37}: commit: add all files
+[33mdbd2f2d[m HEAD@{38}: commit: feat: add initial splash screen
+[33m6bc1687[m HEAD@{39}: commit: path constants
+[33m9fe4d18[m HEAD@{40}: Branch: renamed refs/heads/master to refs/heads/main
+[33m9fe4d18[m HEAD@{42}: commit (initial): first commit

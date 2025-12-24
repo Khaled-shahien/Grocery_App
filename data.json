@@ -1,0 +1,340 @@
+{
+  "categories": {
+    "fruits": [
+      {
+        "id": "fruit_001",
+        "name": "تفاح أحمر",
+        "price": 25.0,
+        "oldPrice": 30.0,
+        "rating": 4.5,
+        "imageUrl": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=400"
+      },
+      {
+        "id": "fruit_002",
+        "name": "موز",
+        "price": 15.0,
+        "oldPrice": 20.0,
+        "rating": 4.7,
+        "imageUrl": "https://images.unsplash.com/photo-1603833665858-e61d17a86224?w=400"
+      },
+      {
+        "id": "fruit_003",
+        "name": "برتقال",
+        "price": 20.0,
+        "oldPrice": 25.0,
+        "rating": 4.6,
+        "imageUrl": "https://images.unsplash.com/photo-1580052614034-c55d20bfee3b?w=400"
+      },
+      {
+        "id": "fruit_004",
+        "name": "فراولة",
+        "price": 40.0,
+        "oldPrice": 50.0,
+        "rating": 4.8,
+        "imageUrl": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=400"
+      },
+      {
+        "id": "fruit_005",
+        "name": "عنب أحمر",
+        "price": 35.0,
+        "oldPrice": 45.0,
+        "rating": 4.4,
+        "imageUrl": "https://images.unsplash.com/photo-1599819177360-eb1e8a58f1f3?w=400"
+      }
+    ],
+    "vegetables": [
+      {
+        "id": "veg_001",
+        "name": "طماطم",
+        "price": 12.0,
+        "oldPrice": 15.0,
+        "rating": 4.3,
+        "imageUrl": "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?w=400"
+      },
+      {
+        "id": "veg_002",
+        "name": "خيار",
+        "price": 10.0,
+        "oldPrice": 13.0,
+        "rating": 4.2,
+        "imageUrl": "https://images.unsplash.com/photo-1604977042946-1eecc30f269e?w=400"
+      },
+      {
+        "id": "veg_003",
+        "name": "بطاطس",
+        "price": 8.0,
+        "oldPrice": 10.0,
+        "rating": 4.5,
+        "imageUrl": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=400"
+      },
+      {
+        "id": "veg_004",
+        "name": "جزر",
+        "price": 14.0,
+        "oldPrice": 18.0,
+        "rating": 4.4,
+        "imageUrl": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=400"
+      },
+      {
+        "id": "veg_005",
+        "name": "بروكلي",
+        "price": 30.0,
+        "oldPrice": 35.0,
+        "rating": 4.6,
+        "imageUrl": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=400"
+      }
+    ],
+    "mushroom": [
+      {
+        "id": "mush_001",
+        "name": "مشروم أبيض",
+        "price": 45.0,
+        "oldPrice": 55.0,
+        "rating": 4.5,
+        "imageUrl": "https://images.unsplash.com/photo-1567873935281-44b982c7e8e4?w=400"
+      },
+      {
+        "id": "mush_002",
+        "name": "مشروم بورتوبيلو",
+        "price": 60.0,
+        "oldPrice": 75.0,
+        "rating": 4.7,
+        "imageUrl": "https://images.unsplash.com/photo-1566048167271-3369fac5b9f5?w=400"
+      },
+      {
+        "id": "mush_003",
+        "name": "مشروم شيتاكي",
+        "price": 80.0,
+        "oldPrice": 95.0,
+        "rating": 4.8,
+        "imageUrl": "https://images.unsplash.com/photo-1617897903655-7fbe14f1e322?w=400"
+      },
+      {
+        "id": "mush_004",
+        "name": "مشروم محاري",
+        "price": 70.0,
+        "oldPrice": 85.0,
+        "rating": 4.6,
+        "imageUrl": "https://images.unsplash.com/photo-1619100242988-64083b32f835?w=400"
+      },
+      {
+        "id": "mush_005",
+        "name": "مشروم مشكل",
+        "price": 55.0,
+        "oldPrice": 65.0,
+        "rating": 4.4,
+        "imageUrl": "https://images.unsplash.com/photo-1599483151025-a16b6df38401?w=400"
+      }
+    ],
+    "dairy": [
+      {
+        "id": "dairy_001",
+        "name": "حليب كامل الدسم",
+        "price": 25.0,
+        "oldPrice": 28.0,
+        "rating": 4.6,
+        "imageUrl": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400"
+      },
+      {
+        "id": "dairy_002",
+        "name": "زبادي يوناني",
+        "price": 18.0,
+        "oldPrice": 22.0,
+        "rating": 4.7,
+        "imageUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400"
+      },
+      {
+        "id": "dairy_003",
+        "name": "جبنة شيدر",
+        "price": 50.0,
+        "oldPrice": 60.0,
+        "rating": 4.8,
+        "imageUrl": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=400"
+      },
+      {
+        "id": "dairy_004",
+        "name": "زبدة طبيعية",
+        "price": 35.0,
+        "oldPrice": 42.0,
+        "rating": 4.5,
+        "imageUrl": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=400"
+      },
+      {
+        "id": "dairy_005",
+        "name": "كريمة طازجة",
+        "price": 30.0,
+        "oldPrice": 35.0,
+        "rating": 4.4,
+        "imageUrl": "https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=400"
+      }
+    ],
+    "oats": [
+      {
+        "id": "oats_001",
+        "name": "شوفان كامل",
+        "price": 28.0,
+        "oldPrice": 35.0,
+        "rating": 4.7,
+        "imageUrl": "https://images.unsplash.com/photo-1590144621913-ffe89098bd2f?w=400"
+      },
+      {
+        "id": "oats_002",
+        "name": "شوفان سريع التحضير",
+        "price": 32.0,
+        "oldPrice": 38.0,
+        "rating": 4.5,
+        "imageUrl": "https://images.unsplash.com/photo-1517673132405-a56a62b18caf?w=400"
+      },
+      {
+        "id": "oats_003",
+        "name": "شوفان بالعسل",
+        "price": 40.0,
+        "oldPrice": 48.0,
+        "rating": 4.8,
+        "imageUrl": "https://images.unsplash.com/photo-1574270044377-6fab1f3b2d55?w=400"
+      },
+      {
+        "id": "oats_004",
+        "name": "شوفان بالفواكه",
+        "price": 45.0,
+        "oldPrice": 52.0,
+        "rating": 4.6,
+        "imageUrl": "https://images.unsplash.com/photo-1527155469642-8e0d76b44917?w=400"
+      },
+      {
+        "id": "oats_005",
+        "name": "جرانولا بالشوفان",
+        "price": 50.0,
+        "oldPrice": 60.0,
+        "rating": 4.9,
+        "imageUrl": "https://images.unsplash.com/photo-1587899897387-091ebd01d1d2?w=400"
+      }
+    ],
+    "bread": [
+      {
+        "id": "bread_001",
+        "name": "خبز توست أبيض",
+        "price": 12.0,
+        "oldPrice": 15.0,
+        "rating": 4.3,
+        "imageUrl": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=400"
+      },
+      {
+        "id": "bread_002",
+        "name": "خبز توست بني",
+        "price": 15.0,
+        "oldPrice": 18.0,
+        "rating": 4.5,
+        "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400"
+      },
+      {
+        "id": "bread_003",
+        "name": "باجيت فرنسي",
+        "price": 20.0,
+        "oldPrice": 25.0,
+        "rating": 4.7,
+        "imageUrl": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=400"
+      },
+      {
+        "id": "bread_004",
+        "name": "خبز بالحبوب الكاملة",
+        "price": 18.0,
+        "oldPrice": 22.0,
+        "rating": 4.6,
+        "imageUrl": "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?w=400"
+      },
+      {
+        "id": "bread_005",
+        "name": "كرواسون",
+        "price": 8.0,
+        "oldPrice": 10.0,
+        "rating": 4.8,
+        "imageUrl": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400"
+      }
+    ],
+    "rice": [
+      {
+        "id": "rice_001",
+        "name": "أرز مصري",
+        "price": 22.0,
+        "oldPrice": 28.0,
+        "rating": 4.5,
+        "imageUrl": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400"
+      },
+      {
+        "id": "rice_002",
+        "name": "أرز بسمتي",
+        "price": 35.0,
+        "oldPrice": 42.0,
+        "rating": 4.8,
+        "imageUrl": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=400"
+      },
+      {
+        "id": "rice_003",
+        "name": "أرز أبيض طويل",
+        "price": 25.0,
+        "oldPrice": 30.0,
+        "rating": 4.4,
+        "imageUrl": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=400"
+      },
+      {
+        "id": "rice_004",
+        "name": "أرز بني",
+        "price": 32.0,
+        "oldPrice": 38.0,
+        "rating": 4.6,
+        "imageUrl": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=400"
+      },
+      {
+        "id": "rice_005",
+        "name": "أرز ياسمين",
+        "price": 40.0,
+        "oldPrice": 48.0,
+        "rating": 4.7,
+        "imageUrl": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=400"
+      }
+    ],
+    "egg": [
+      {
+        "id": "egg_001",
+        "name": "بيض أبيض - 30 بيضة",
+        "price": 85.0,
+        "oldPrice": 95.0,
+        "rating": 4.6,
+        "imageUrl": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=400"
+      },
+      {
+        "id": "egg_002",
+        "name": "بيض بلدي - 15 بيضة",
+        "price": 65.0,
+        "oldPrice": 75.0,
+        "rating": 4.8,
+        "imageUrl": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=400"
+      },
+      {
+        "id": "egg_003",
+        "name": "بيض عضوي - 12 بيضة",
+        "price": 70.0,
+        "oldPrice": 82.0,
+        "rating": 4.9,
+        "imageUrl": "https://images.unsplash.com/photo-1569288052389-dac9b01ac19a?w=400"
+      },
+      {
+        "id": "egg_004",
+        "name": "بيض أحمر - 30 بيضة",
+        "price": 90.0,
+        "oldPrice": 100.0,
+        "rating": 4.7,
+        "imageUrl": "https://images.unsplash.com/photo-1587486937695-68e0d54a7c00?w=400"
+      },
+      {
+        "id": "egg_005",
+        "name": "بيض بالأوميجا 3 - 12 بيضة",
+        "price": 55.0,
+        "oldPrice": 65.0,
+        "rating": 4.5,
+        "imageUrl": "https://images.unsplash.com/photo-1518569656558-1f25e69d93d7?w=400"
+      }
+    ]
+  }
+}

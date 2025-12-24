@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "555286530543",
+    "project_id": "nti-project-811dc",
+    "storage_bucket": "nti-project-811dc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555286530543:android:5f795905a8d8e0373b4e1a",
+        "android_client_info": {
+          "package_name": "com.example.grocery_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFg3zIO_wmrP325_gq7OzQem42BKsvtgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
