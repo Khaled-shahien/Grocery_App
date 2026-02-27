@@ -10,17 +10,30 @@ import 'package:grocery_app/features/home/presentation/screens/widgets/custom_tr
 import 'package:go_router/go_router.dart';
 import 'package:grocery_app/core/navigation/app_router.dart';
 
-class HomeScreenBody extends StatelessWidget {
+class HomeScreenBody extends StatefulWidget {
   const HomeScreenBody({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  State<HomeScreenBody> createState() => _HomeScreenBodyState();
+}
+
+class _HomeScreenBodyState extends State<HomeScreenBody> {
+  late Future<UserModel> _userDataFuture;
+
+  @override
+  void initState() {
+    super.initState();
     final firebaseService = FirebaseStoreService();
     final currentUser = FirebaseAuth.instance.currentUser;
+    // Cache the future so it doesn't refetch on every rebuild
+    _userDataFuture = firebaseService.getUserData(docId: currentUser!.uid);
+  }
 
+  @override
+  Widget build(BuildContext context) {
     return SafeArea(
       child: FutureBuilder<UserModel>(
-        future: firebaseService.getUserData(docId: currentUser!.uid),
+        future: _userDataFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(child: CircularProgressIndicator());
@@ -80,6 +93,7 @@ class HomeScreenBody extends StatelessWidget {
                               ),
                             ),
                             IconButton(
+                              tooltip: 'View all categories',
                               onPressed: () {
                                 context.push(AppRoutes.categories);
                               },
@@ -117,6 +131,7 @@ class HomeScreenBody extends StatelessWidget {
                               ),
                             ),
                             IconButton(
+                              tooltip: 'View trending deals',
                               onPressed: () {
                                 context.push(AppRoutes.trendingDeals);
                               },
