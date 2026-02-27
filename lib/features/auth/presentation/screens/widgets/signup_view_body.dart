@@ -141,7 +141,11 @@ class _SignupViewBodyState extends State<SignupViewBody> {
                             if (value == null || value.isEmpty) {
                               return 'email can not be empty';
                             }
-                            if (!value.contains('@')) return 'invalid format';
+                            final emailRegExp = RegExp(
+                                r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$');
+                            if (!emailRegExp.hasMatch(value)) {
+                              return 'invalid format';
+                            }
                             return null;
                           },
                         ),
